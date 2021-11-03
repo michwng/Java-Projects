@@ -1,6 +1,11 @@
 This project was created in the Visual Studio Code IDE.
 This project was started on October 8th, 2020 and completed on November 17th, 2020. Updates have been provided beginning in September 1, 2021 through September 14th, 2021.
 
+This game strongly draws inspiration from:
+- Sonny & Sonny 2 (Flash Games)
+- Fire Emblem series
+
+
 A person may need 15-30 minutes to complete the storyline of the game.
 This project has been heavily tested.
 
