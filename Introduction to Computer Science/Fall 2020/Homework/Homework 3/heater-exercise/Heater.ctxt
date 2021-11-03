@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=Heater
+comment0.text=\r\n\ This\ code\ simulates\ a\ heater.\r\n\r\n\ @author\ Michael\ Ng\r\n\ @version\ 9/10/2020\r\n
+comment1.params=
+comment1.target=Heater()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Heater\r\n
+comment2.params=
+comment2.target=void\ warmer()
+comment2.text=\r\n\ Increases\ the\ temperature\r\n
+comment3.params=
+comment3.target=void\ cooler()
+comment3.text=\r\n\ Decreases\ the\ temperature\r\n
+comment4.params=
+comment4.target=double\ getTemp()
+comment4.text=\r\n\ Returns\ the\ temperature\r\n
+comment5.params=set
+comment5.target=void\ setIncrement(double)
+numComments=6
