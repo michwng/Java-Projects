@@ -1,1 +1,32 @@
+This project was created in the Visual Studio Code IDE.
+This project was started on October 25th, 2021 and is currently in development. 
+This project is a freelance project for the sole purpose of brushing up on Java skills.
 
+This game strongly draws inspiration from:
+- Sonny & Sonny 2 (Flash Games)
+- Fire Emblem series
+- Dungeon of Despair/Sigian Conflict
+
+This project has Audio! Be sure to turn down your volume to the right amount.
+
+All classes except SimpleAudioPlayer are created by Michael Ng.
+SimpleAudioPlayer was originally created by geeksforgeeks.org.
+I have modified SimpleAudioPlayer to fit the project's needs.
+Website link to the original: https://www.geeksforgeeks.org/play-audio-file-using-java/
+
+Game Name: Rise of Nosian
+Genre: Dungeon-Crawler RPG
+Creator: Michael Ng
+
+TRAILER
+Somewhere, within the universe, exists an exoplanet. It is known as "Quileria" by its inhabitants.
+Suddenly, in the year 125 of the 4th era, war broke out. This came without warning, and led to the uneccessary deaths of 12 million civilians and soldiers alike.
+
+
+
+
+
+Music Credits
+
+
+Thank you for reading!
