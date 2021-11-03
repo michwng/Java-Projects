@@ -1,5 +1,6 @@
-This project was created solely by Michael Ng.
-This project was created using about ~3 weeks worth of hard coding and research.
+This project was created in the Visual Studio Code IDE.
+This project was started on October 8th, 2020 and completed on November 17th, 2020. Updates have been provided beginning in September 1, 2021 through September 14th, 2021.
+
 A person may need 15-30 minutes to complete the storyline of the game.
 This project has been heavily tested.
 
@@ -140,24 +141,20 @@ Version 1.5 (Anniversary Update):
 - Battle Menu has been improved.
 - When battling, proper nouns are used for status effects now. (For example, instead of Ally lacerated Enemy, a possibility is "Zacharias lacerated Goblin")
 - Added Credits and Music section to Title Menu.
-- Description of Leader of the Legion's 'Decimate' skill now accurately reflects the Sunder status effect (before, said armor is reduced by 20 for 3 turns. Now, armor is reduced to 0 for 3 turns).
 - Various code improvements and rearrangements.
-- Some bosses have been balanced.
+- Some bosses have been rebalanced.
 - Financial Support encounter is much more likely to trigger a battle (money requirement changed from $10 to $200). Otherwise, it is more rewarding.
 - BalanceArea() has been adjusted. Enemies in higher floors will be stronger.
-- Bleeding now shows before the Hero Phase Menu pops up, as opposed to after.
+- Bleeding now shows first in the Hero Phase Results, as opposed to after.
 
-- Code has been tested heavily. Bugs encountered in this round of testing have been resolved.
-	- Possible Bug fixed where bleeding damage is applied twice in the same turn it was procced. For example, when enemy lacerates ally for 50HP per turn, the ally will lose 100HP that turn. (Bleed damage is applied once per turn now.)
+
+- Code has been tested heavily after making these changes. Bugs encountered and introduced in this round of testing have been resolved.
+	- Bug fixed where bleeding damage is applied twice in the same turn it was procced. For example, when enemy lacerates ally for 50HP per turn, the ally will lose 100HP that turn. (Bleed damage is applied once per turn now.)
 	- Similarly, the Poison status effect had the same bug as Bleed, and this issue has also been fixed.
 	- Fixed display bug where, when enemy bleeds, output shows Ally's Max HP instead of Enemy's Max HP.
+	- Description of Leader of the Legion's 'Decimate' skill now accurately reflects the Sunder status effect (before, said armor is reduced by 20 for 3 turns. Now, armor is reduced to 0 for 3 turns).
 	
-Submitted 10/05/2021
-
-
-
-
-
+Version 1.5 was Submitted 10/05/2021
 
 
 Thank you for reading!
