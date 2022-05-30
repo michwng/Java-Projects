@@ -66,3 +66,66 @@ https://mixkit.co/free-sound-effects/click/
 
 https://www.fesliyanstudios.com/royalty-free-sound-effects-download/video-game-menu-153
 - Click2
+
+
+
+===========================
+======= VERSION LOG =======
+===========================
+The Version Log tracks any changes made to the game since its release in Version 1.0.
+
+Version 1.0 - The original submitted project.
+    Created March 28, 2021 - Submitted May 21, 2021
+
+
+Version 1.5 (Anniversary Update)
+    - Small note: the UML Diagram and Design Document still reflect Version 1.0.
+
+    *** IMPORTANT ADDITIONS ***
+    - Added Skirmish Mode. 
+        - Skirmish Mode allows the player to customize their own battle.
+        - You can:
+            - Change the Battlefield Width and Length
+            - Change the Number of Enemies on the Battlefield
+            - Change the Sparseness of Enemies on the Battlefield
+            - Change the Item Spawn Rate of Items on the Battlefield
+
+    - A new boss, Rebellious Warlord, has been added as the last enemy of the Skirmish.
+        - Beware his rocket laucher... It can shoot many rockets at once.
+
+    *** BUG FIXES ***
+    - Fixed the Sharpshooter skill to accurately ignore armor.
+        - However, the skill will only ignore up to 30% of the enemy's armor.
+
+    - All Special Skills were mistakenly advertised as having the ability to ignore enemy armor.
+        - Only the Sharpshooter and Weak Point Special Skills are capable of such.
+        - The descriptions of the skills has been updated to reflect this change.
+    
+    - The Critical Hit Special Skill is buffed by improving luck by 65% per shot (before: 50%).
+    - The Triple Hit Special Skill is replaced with the "Weak Point" Special Skill.
+        - Weak Point combines the effects of Sharpshooter and Critical Hit by ignoring up to 25% of enemy armor and increasing luck by 40% per shot.
+
+    - The text displayed after ignoring the armor has been updated to reflect this change.
+
+    - Attacking when the gun's clip is less than the RPS shows that the gun fired [RPS] amount of bullets.
+        - For example, using unload with a weapon with 14 / 20 clip and 20 RPS will say that the hero fired 20 bullets.
+        - The bug has been fixed and the battle menu has been altered to reflect this change.
+
+    - A similar issue of the above bug is apparent with Special Skills as well, particularly with the Special Skill Unload.
+        - This issue has been addressed and resolved as well, in this version.
+
+    *** EASE OF PLAY ***
+    - The enemies encountered per chapter battle has been reduced in light of repetitive gameplay.
+        - The number of enemies in Chapter 0 are reduced from 5 to 3. 
+        - The number of enemies in Chapter 1 are reduced from 8 to 4. 
+        - The number of enemies in Chapter 2 are reduced from 5 to 4. 
+        - The number of enemies in Chapter 3 are reduced from 10 to 5. 
+        - The number of enemies in Chapter 4 are reduced from 12 to 6. 
+        - The number of enemies in Chapter 5 are reduced from 10 to 7. 
+
+    - Enemies drop slightly more Experience to account for less enemies.
+        
+    Version 1.5 was edited and submitted on May 29, 2022.
+
+
+
