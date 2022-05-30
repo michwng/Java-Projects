@@ -61,6 +61,8 @@ public class Driver
 	//Determines if the user has fought a skirmish one or more times.
 	//This variable is relative and will not be saved to a save file.
 	private static boolean foughtSkirmishOnce = false;
+
+	protected static String FileRoot = System.getProperty("user.dir") + File.separator + "Sigian Conflict" + File.separator + "Version 1.5" + File.separator;
 	
 	/**
 	 * The Main Method runs and coordinates the game's main menu.
@@ -254,8 +256,8 @@ public class Driver
 	private static boolean loadGame() 
 	{
 		//The 2 filepaths to the save files.
-		File path = new File("src\\SaveFiles\\File1");
-		File path2 = new File("src\\SaveFiles\\File2");
+		File path = new File(FileRoot + "src\\SaveFiles\\File1");
+		File path2 = new File(FileRoot + "src\\SaveFiles\\File2");
 		Scanner inputFile = null;
 		Scanner inputFile2 = null;
 
@@ -2427,7 +2429,7 @@ public class Driver
 						
 						try //Play the get item sound effect.
 						{
-							swavePlayer = new WavePlayer("src\\Music\\GetItem.wav", false);
+							swavePlayer = new WavePlayer(FileRoot + "src\\Music\\GetItem.wav", false);
 						}
 						catch (UnsupportedAudioFileException | IOException | LineUnavailableException e)
 						{
@@ -2462,7 +2464,7 @@ public class Driver
 			try
 			{
 				stopMusic ( );
-				swavePlayer = new WavePlayer("src\\Music\\Victory.wav", false);
+				swavePlayer = new WavePlayer(FileRoot + "src\\Music\\Victory.wav", false);
 			}
 			catch (UnsupportedAudioFileException | IOException | LineUnavailableException e1)
 			{
@@ -2686,7 +2688,7 @@ public class Driver
 						
 						try //Play the get item sound effect.
 						{
-							swavePlayer = new WavePlayer("src\\Music\\GetItem.wav", false);
+							swavePlayer = new WavePlayer(FileRoot + "src\\Music\\GetItem.wav", false);
 						}
 						catch (UnsupportedAudioFileException | IOException | LineUnavailableException e)
 						{
@@ -2721,7 +2723,7 @@ public class Driver
 			try
 			{
 				stopMusic ( );
-				swavePlayer = new WavePlayer("src\\Music\\Victory.wav", false);
+				swavePlayer = new WavePlayer(FileRoot + "src\\Music\\Victory.wav", false);
 			}
 			catch (UnsupportedAudioFileException | IOException | LineUnavailableException e1)
 			{
@@ -3771,7 +3773,7 @@ public class Driver
 				try //plays level up music and shows the levelup message.
 				{
 					wavePlayer.pause ( );
-					swavePlayer = new WavePlayer("src\\Music\\LevelUp.wav", false);
+					swavePlayer = new WavePlayer(FileRoot + "src\\Music\\LevelUp.wav", false);
 					JOptionPane.showMessageDialog (null, heroAttributes.levelUp ( ), "Level Up", JOptionPane.INFORMATION_MESSAGE);
 					swavePlayer.stop ( );
 					wavePlayer.resumeAudio ( );
@@ -3804,7 +3806,7 @@ public class Driver
 			stopMusic();
 			try //Play defeat music
 			{
-				swavePlayer = new WavePlayer("src\\Music\\Grief.wav", false);
+				swavePlayer = new WavePlayer(FileRoot + "src\\Music\\Grief.wav", false);
 			}
 			catch (UnsupportedAudioFileException | IOException | LineUnavailableException e)
 			{
@@ -3839,8 +3841,8 @@ public class Driver
 		{
 			int pick = JOptionPane.showConfirmDialog (null, "Would you like to save your game?\n" + heroAttributes.toString ( ) + "\n", "Save Game", JOptionPane.YES_NO_OPTION);
 			
-			String filepath = new String("src\\SaveFiles\\File1");
-			String filepath2 = new String("src\\SaveFiles\\File2");
+			String filepath = new String(FileRoot + "src\\SaveFiles\\File1");
+			String filepath2 = new String(FileRoot + "src\\SaveFiles\\File2");
 			String filesInformation = "";
 			
 			if(pick == 0) //yes, save game.
@@ -4010,7 +4012,7 @@ public class Driver
 		try //Plays the music with the same trackName as the parameter.
 		{
 			//wavePlayer has already been formatted to accept trackname rather than filePath.
-			wavePlayer = new WavePlayer("src\\Music\\" + trackName + ".wav", loop);
+			wavePlayer = new WavePlayer(FileRoot + "src\\Music\\" + trackName + ".wav", loop);
 		}
 		catch (UnsupportedAudioFileException e)
 		{
@@ -4041,8 +4043,8 @@ public class Driver
 	 */
 	private static void swapMusic(String trackName, String trackName2) 
 	{
-		trackName = "src\\Music\\" + trackName + ".wav";
-		trackName2 = "src\\Music\\" + trackName2 + ".wav";
+		trackName = FileRoot + "src\\Music\\" + trackName + ".wav";
+		trackName2 = FileRoot + "src\\Music\\" + trackName2 + ".wav";
 		wavePlayer.swap (trackName, trackName2);
 	}
 	
@@ -4064,7 +4066,7 @@ public class Driver
 				//Click sound changes in battle.
 				try
 				{
-					clickSound = new WavePlayer("src\\Music\\Click2.wav", false);
+					clickSound = new WavePlayer(FileRoot + "src\\Music\\Click2.wav", false);
 				}
 				catch (UnsupportedAudioFileException | IOException | LineUnavailableException e)
 				{
@@ -4077,7 +4079,7 @@ public class Driver
 			{
 				try
 				{
-					clickSound = new WavePlayer("src\\Music\\Click.wav", false);
+					clickSound = new WavePlayer(FileRoot + "src\\Music\\Click.wav", false);
 				}
 				catch (UnsupportedAudioFileException | IOException | LineUnavailableException e)
 				{
