@@ -11,7 +11,7 @@ Join Regiment 47 as they fight against the rebellion!
 
 
 Featuring:
-  Revamped fighting system!
+  Revamped fighting system based off of Dungeon of Dystopia!
   Click sounds!
   2D Map navigation!
   Swap music tracks in and out of battle!
@@ -91,7 +91,7 @@ Version 1.5 (Anniversary Update)
             - Change the Item Spawn Rate of Items on the Battlefield
 
     - A new boss, Rebellious Warlord, has been added as the last enemy of the Skirmish.
-        - Beware his rocket laucher... It can shoot many rockets at once.
+        - Beware his rocket launcher... It can shoot many rockets at once.
 
     *** BUG FIXES ***
     - Fixed the Sharpshooter skill to accurately ignore armor.
