@@ -16,6 +16,10 @@ SimpleAudioPlayer was originally created by geeksforgeeks.org.
 I have modified SimpleAudioPlayer to fit the project's needs.
 Website link to the original: https://www.geeksforgeeks.org/play-audio-file-using-java/
 
+=====
+This project, as noted in Java-Projects, has been ported to SRPG Studio and may not be completed in the near future.
+=====
+
 Game Name: Rise of Nosian
 Genre: Dungeon-Crawler RPG
 Creator: Michael Ng
@@ -36,3 +40,10 @@ and Vestrim is the first city to fall.
 Experience the tale of Alexandre Nosian's final hours.
 ...Or is it really his final hours?
 
+
+-----
+Change Log - CURRENT VERSION IS 0.3.
+-----
+Version 0.1: Rise of Nosian is adapted from its predecessor game, Dungeon of Dystopia.
+Version 0.2: Added prologue battle.
+Version 0.3: CURRENT VERSION - Added a video in the beginning. The thread waits 151 seconds (around the length of the video) before continuing the prologue.
