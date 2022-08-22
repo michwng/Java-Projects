@@ -108,8 +108,9 @@ Version 1.5 (Anniversary Update)
     - The text displayed after ignoring the armor has been updated to reflect this change.
 
     - Attacking when the gun's clip is less than the RPS shows that the gun fired [RPS] amount of bullets.
-        - For example, using unload with a weapon with 14 / 20 clip and 20 RPS will say that the hero fired 20 bullets.
+        - For example, using unload with a weapon with 9 / 20 clip and 15 RPS will say that the hero fired 15 bullets.
         - The bug has been fixed and the battle menu has been altered to reflect this change.
+        - Now, the same scenario above should show that the hero fired 9 bullets.
 
     - A similar issue of the above bug is apparent with Special Skills as well, particularly with the Special Skill Unload.
         - This issue has been addressed and resolved as well, in this version.
