@@ -8,7 +8,7 @@
  * Creation Date: 10/8/2020
  * Completion Date: 11/16/2020
  * Updated: 09/01/2021 - 09/06/2021
- * @version 1.5
+ * @version 1.7
  * --------------------------------------------------------------------------
  */
 //imports needed in order to play background music.
